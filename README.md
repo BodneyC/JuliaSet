@@ -28,7 +28,7 @@ There are three versions of this program, a serial version and two differently l
 
     mpirun [-np [0-9]] [-machinefile ./path/to/machine-file] ./bin/fracFun_CM
 
-`fracfun_MS` is the cyclically mapped version of the parallelised versions:
+`fracfun_MS` is the client/server version of the parallelised versions:
 
     mpirun [-np [0-9]] [-machinefile ./path/to/machine-file] ./bin/fracFun_MS
 
